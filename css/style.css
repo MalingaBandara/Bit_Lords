@@ -1,2 +1,3 @@
-    .index {
-    background-image: linear-gradient(#e9d414, #d83333);
+.index {
+    background-image: linear-gradient(red, yellow);
+}
