@@ -17,10 +17,3 @@ h1 {
 div {
     height: 100vh;
 }
-
-.secound {
-    background-image: url(1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
