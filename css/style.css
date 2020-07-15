@@ -1,5 +1,5 @@
 .first {
-    background-image: url(2.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,10 +10,18 @@ body {
     margin: 0;
 }
 
-h1 {
+.h {
     margin-top: 0;
 }
 
 .space {
     height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.t {
+    margin: 0px 0px 8px;
 }
