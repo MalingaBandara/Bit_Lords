@@ -1,9 +1,36 @@
-.index {
+    .index {
     background-image: linear-gradient(red, yellow);
-    font-size: high
-}
-
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-}
+    font-size: high .first {
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    body {
+        margin: 0;
+    }
+    .h {
+        margin-top: 0;
+    }
+    .space {
+        height: 100vh;
+    }
+    .center {
+        text-align: center;
+    }
+    .t {
+        margin-left: 4%;
+        font-size: 40px;
+    }
+    .tx {
+        margin-left: 4%;
+        font-size: 25px;
+    }
+    .cent {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .middle {
+        padding-right: 60%;
+    }
