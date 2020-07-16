@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <form name="form1">
+    <div class="container">
+    <h1 font style="font-family: 'Lucida Sans'">Create your own account</h1>
+    <h2 class="required" font style="font-family: 'Lucida Sans'">Required Fields</h2>
+
+    <style>
+        .required:before {
+            content: "*";
+            color: red;
+        }
+        .required1:after{
+            content: "*";
+            color: red;
+        }
+
+    </style>
+
+
+               <label class="required1" font style="font-family: 'Lucida Sans'">Name :</label>
+               
+<br>
+                
+                    <input type="text" class="textbox" name="cname" placeholder="Enter Your Name" required="Please fill this field">
+                    <br>
+
+            
+                 <label class="required1" font style="font-family:'Lucida Sans'">User Name : </label>
+             
+            
+            <br>
+                    <input type="text" class="textbox" name="uname" placeholder="Create a username" required="Please fill this field">
+                    <br>
+                    <label class="required1" font style="font-family: 'Lucida Sans'">Create a Password</label>
+                    <br>
+                    <input type="Password" class="textbox" name="pwd" placeholder="Password" required="Please fill this field">
+                    <br>
+                    <label class="required1" font style="font-family: 'Lucida Sans'">Confirm Password</label>
+                    <br>
+                    <input type="Password" name="cpwd" class="textbox" placeholder="Confirm your Password" required="Please fill this field">
+                    <br>
+                    <label class="required1" font style="font-family: 'Lucida Sans'">Email Address</label>
+                    <br>
+                    <input type="text" name="email" class="textbox" placeholder="Email Address" required="Please fill this field">
+                    <br>
+                    <label class="required1" font style="font-family: 'Lucida Sans'">Confirm Email Address</label>
+                    <br>
+                    <input type="text" name="cemail" class="textbox" placeholder="Confirm Email Address" required="Please fill this field">
+<br>
+<br>
+<table>
+                 <tr>
+                 <td><button class="button1" onclick="functionclick();">Register</button></td>
+
+                    <td><button class="button2" onclick="document.getElementById('clear').value=''">Cancel</button>
+                        </td>
+                </tr>
+            </table>
+
+            <script type="text/javascript">
+                .functionclick(){
+                 if (document.form1.pwd.value != document.form1.cpwd.value)
+                    {
+                        alert("Please check your Password again!");
+                    }
+                    else 
+                    {
+                        window.alert("Your account was successfully created!");
+                    }
+
+            
+                
+            </script>
+
+
+</div>                  
+
+            
+
+</form>
+
+
+
+    
+</body>
+
+</html>

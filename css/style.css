@@ -1,9 +1,28 @@
-.index {
-    background-image: linear-gradient(red, yellow);
-    font-size: medium;
+.first {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    ;
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+}
+
+.h {
+    margin-top: 0;
+}
+
+.space {
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.t {
+    margin-left: 4%;
+    font-size: 40px;
 }
