@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    ;
 }
 
 body {
@@ -25,4 +24,10 @@ body {
 .t {
     margin-left: 4%;
     font-size: 40px;
+}
+
+.cent {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
 }
