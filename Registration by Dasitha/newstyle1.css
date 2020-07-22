@@ -1,0 +1,79 @@
+    .body {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('yellow-banana-fruits-3310691.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        display: block;
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+        color: black;
+        font-size: large;
+    }
+    
+    .form1 {
+        background-color: #ffe88a;
+        border: 5px solid #ab8c3a;
+        border-radius: 17px;
+        display: inline-block;
+        padding: 6px;
+        opacity: 0.7;
+    }
+    
+    .textbox {
+        padding: 15px 90px 15px 90px;
+        border: 2px solid #9e7f31;
+        background: #ffffff;
+        margin: 18px 0px 15px 0px;
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        margin: 5px auto 5px auto;
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+    }
+    
+    .button1 {
+        border: 1px solid #9e7f31;
+        border-radius: 25px;
+        background: white;
+        padding: 30px;
+        font-size: 21px;
+        font-family: Lucida Sans;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        position: center;
+        margin-left: 35px;
+    }
+    
+    .button1:hover {
+        background-color: #9e7f31;
+        color: white;
+    }
+    
+    .button2 {
+        border: 1px solid #9e7f31;
+        border-radius: 25px;
+        background: white;
+        padding: 30px;
+        font-size: 21px;
+        font-family: Lucida Sans;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        position: center;
+        margin-right: 25px;
+    }
+    
+    .button2:hover {
+        background-color: #9e7f31;
+        color: white;
+    }
