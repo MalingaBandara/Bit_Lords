@@ -11,11 +11,19 @@
         background-attachment: fixed;
     }
     
+    .aria {
+        display: table;
+        width: 100%;
+    }
+    
+    .aria-cont {
+        display: table-column;
+    }
+    
     .secound {
-        background-image: url();
+        background-image: url(../img/home/gal_1.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+        background-size: 100vh;
     }
     
     .h {
@@ -66,7 +74,7 @@
     }
     
     .middle {
-        padding-right: 60%;
+        padding-right: 45%;
     }
     
     .font {
@@ -92,5 +100,8 @@
         }
         .gal-row {
             margin-left: 0;
+        }
+        .middle {
+            padding-right: 0;
         }
     }
