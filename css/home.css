@@ -93,6 +93,7 @@
         background-size: 25%;
     }
     /*change the options when sceen size falls bellow 600px*/
+    /*jidcicpid*/
     
     @media only screen and (max-width: 600px) {
         .web-img {
