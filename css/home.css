@@ -8,7 +8,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: #ffffdf;
-        background-attachment: fixed;
     }
     
     .aria {
@@ -21,9 +20,15 @@
     }
     
     .secound {
-        background-image: url(../img/home/gal_1.jpg);
+        background-image: url(../img/home/home_1.jpg);
         background-repeat: no-repeat;
-        background-size: 100vh;
+        background-size: cover;
+    }
+    
+    .third {
+        background-image: url(../img/home/home_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .h {
@@ -45,9 +50,8 @@
     }
     
     .tx {
-        margin-left: 4%;
         font-size: 25px;
-        color: #6C756D;
+        color: #516477;
     }
     
     .cent {
@@ -74,7 +78,7 @@
     }
     
     .middle {
-        padding-right: 45%;
+        padding-right: 50%;
     }
     
     .font {
@@ -104,5 +108,8 @@
         }
         .middle {
             padding-right: 0;
+        }
+        .tx {
+            font-size: 2px;
         }
     }
