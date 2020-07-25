@@ -4,10 +4,11 @@
     }
     
     .first {
-        background-image: url(2.jpg);
+        background-image: url(../img/home/hero.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         color: #ffffdf;
+        background-attachment: fixed;
     }
     
     .secound {
@@ -50,6 +51,20 @@
         font-size: 50px;
     }
     
+    .gal-row {
+        display: flexbox;
+    }
+    
+    .web-img {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 20%;
+        min-width: 350px;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 20% 10px;
+    }
+    
     .middle {
         padding-right: 60%;
     }
@@ -68,4 +83,14 @@
         background-image: url(3.jpg);
         background-repeat: no-repeat;
         background-size: 25%;
+    }
+    /*change the options when sceen size falls bellow 600px*/
+    
+    @media only screen and (max-width: 600px) {
+        .web-img {
+            width: 100%;
+        }
+        .gal-row {
+            margin-left: 0;
+        }
     }
