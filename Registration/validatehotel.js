@@ -6,9 +6,7 @@ function validate() {
     var confirmpassword = document.forms["form1"]["cpwd"].value;
     var email = document.forms["form1"]["email"].value;
     var confirmemail = document.forms["form1"]["cemail"].value;
-
-    var atposition = email.indexOf("@");
-    var dotposition = email.lastIndexOf(".");
+    var emailformat = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
 
 
@@ -21,6 +19,9 @@ function validate() {
     } else if (username == "") {
         alert("Please fill the username field");
         return false;
+    } else if (password.length <= 5) {
+        alert("Please create a strong passsword containing more than 5 characters");
+        return false;
     } else if (password == "") {
         alert("Please Create a password");
         return false;
@@ -30,9 +31,11 @@ function validate() {
     } else if (email == "") {
         alert("Please insert your email!");
         return false;
-    } else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
-        alert("Please enter a valid e-mail address ");
+
+    } else if (!emailformat.test(email)) {
+        alert("Valid email address please");
         return false;
+
     } else if (confirmemail == "") {
         alert("Please enter your confirm email address field");
         return false;
