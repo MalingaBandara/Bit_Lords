@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Registration</title>
+
+    <script type="text/javascript" src="validatehotel.js"></script>
+
+    <link rel="stylesheet" href="newstyle1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+
+
+    <form name="form1" onsubmit="return validate()">
+
+
+        <div class=form1>
+            <h1>Registration</h1>
+            <h4 class="required">Required Fields</h4>
+
+            <style>
+                .required:before {
+                    content: "*";
+                    color: red;
+                }
+                
+                .required1:after {
+                    content: "*";
+                    color: red;
+                }
+            </style>
+
+
+
+
+            <label class="required1">Name :</label>
+
+            <br>
+
+            <input type="text" class="textbox" name="cname" placeholder="name">
+            <br>
+
+
+            <label class="required1">User Name : </label>
+
+
+            <br>
+            <input type="text" class="textbox" name="uname" placeholder="username">
+            <br>
+            <label class="required1">Create a Password</label>
+            <br>
+            <input type="Password" class="textbox" name="pwd" placeholder="password">
+            <br>
+            <label class="required1">Confirm Password</label>
+            <br>
+            <input type="Password" name="cpwd" class="textbox" placeholder="password again">
+            <br>
+            <label class="required1">Email Address</label>
+
+            <br>
+            <input type="email" id="email" name="email" class="textbox" placeholder="mail address">
+            <br>
+            <label class="required1">Confirm Email Address</label>
+            <br>
+            <input type="text" name="cemail" class="textbox" placeholder="mail address again">
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td><button class="button1" type="Submit">Register</button></td>
+                    <td><button class="button2" type="reset">Clear</button></td>
+                </tr>
+            </table>
+
+
+
+
+        </div>
+    </form>
+
+
+
+
+</body>
+
+
+</html>
