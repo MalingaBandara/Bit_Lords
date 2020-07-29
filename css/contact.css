@@ -17,18 +17,23 @@ margin-top: 100px;
 
 }
 
+
+
 #name{
     padding: 10px;
     width: 30%;
+    
+    
 }
 
 #phone{
-
     padding: 10px;
     width: 30%;
-    margin-left:150px;
-    margin-top:60px;
+    margin-left: 100x;
+    margin-top: 30px;
 }
+
+  
 
 #email{
 
