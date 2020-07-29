@@ -1,0 +1,115 @@
+    .index {
+        background-image: linear-gradient(red, yellow);
+        font-size: high;
+    }
+    
+    .first {
+        background-image: url(../img/home/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffdf;
+    }
+    
+    .aria {
+        display: table;
+        width: 100%;
+    }
+    
+    .aria-cont {
+        display: table-column;
+    }
+    
+    .secound {
+        background-image: url(../img/home/home_111.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .third {
+        background-image: url(../img/home/home_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .h {
+        margin-top: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .space {
+        height: 100vh;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .t {
+        margin-left: 4%;
+        font-size: 40px;
+    }
+    
+    .tx {
+        font-size: 25px;
+        color: #516477;
+    }
+    
+    .cent {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding-top: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+    
+    .gal-row {
+        display: flexbox;
+    }
+    
+    .web-img {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 20%;
+        min-width: 350px;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 20% 10px;
+    }
+    
+    .middle {
+        padding-right: 50%;
+    }
+    
+    .font {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 80px;
+    }
+    
+    .size {
+        width: 25%;
+        height: 25%;
+    }
+    
+    .set1 {
+        background-image: url(3.jpg);
+        background-repeat: no-repeat;
+        background-size: 25%;
+    }
+    /*change the options when sceen size falls bellow 600px*/
+    /*jidcicpid*/
+    
+    @media only screen and (max-width: 600px) {
+        .web-img {
+            width: 100%;
+        }
+        .gal-row {
+            margin-left: 0;
+        }
+        .middle {
+            padding-right: 0;
+        }
+        .tx {
+            font-size: 2px;
+        }
+    }
