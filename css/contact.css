@@ -2,9 +2,15 @@
 .space{
     height: 100vh;
 }
+
+.ss{
+    height:20vh;
+}
 .hero{
 
-    background-image: url(../img/contact/561881626.jpg);
+    background-image: url("cu.jpeg");
+    
+   
 }
 
 .form{
@@ -23,8 +29,11 @@ margin-top: 10%;
 
 }
 
-
-
+p{
+    text-align: right;
+    margin-right: 10%;
+    
+}
 
 #name{
     padding: 10px;
@@ -58,3 +67,20 @@ margin-top: 10%;
 }
 
 
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    margin-left:76%;
+    
+  }
+  h2{
+      margin-top:200px;
+  }
