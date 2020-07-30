@@ -6,6 +6,10 @@
 .ss{
     height:20vh;
 }
+.si{
+    height: 40vh;
+    background-color: khaki;
+}
 .hero{
 
     background-image: url("cu.jpeg");
@@ -84,3 +88,9 @@ p{
   h2{
       margin-top:200px;
   }
+
+ 
+     
+ 
+ 
+
