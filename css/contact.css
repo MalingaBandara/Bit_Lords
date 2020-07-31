@@ -7,12 +7,14 @@
     height:20vh;
 }
 .si{
-    height: 40vh;
+    height: 30vh;
     background-color: khaki;
+   
 }
 .hero{
 
-    background-image: url("cu.jpeg");
+    background-image: url("../img/contact/Queen-Room.jpg");
+    background-size:cover;
     
    
 }
@@ -33,15 +35,20 @@ margin-top: 10%;
 
 }
 
-p{
-    text-align: right;
+.qq{
+    text-align:right;
+    padding:0%;
     margin-right: 10%;
+    
+    
+    
     
 }
 
 #name{
     padding: 10px;
     width: 30%;
+   
     
     
 }
