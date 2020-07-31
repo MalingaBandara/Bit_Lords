@@ -19,7 +19,31 @@
 }
 
 .Shead{
+    
     margin-top: 150px;
     text-align: center;
     font-size: 60px;
+}
+
+.col1 {
+    background-image: url(col.jpg);
+    max-height: 100%;
+    float: left;
+    width: 33.33%;
+    height: 1000;
+    padding-left: 95px;
+}
+.col2{
+    background-image: url(col.jpg);
+    float: none;
+    width: 33.33%;
+    height: 1000%;
+    
+}
+.col2{
+    background-image: url(col.jpg);
+    float: right;
+    width: 33.33%;
+    height: 100;
+    padding-right: 95px;
 }
