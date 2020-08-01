@@ -1,5 +1,5 @@
 .body {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('shifaaz-shamoon-sLAk1guBG90-unsplash.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Queen-Room.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,24 +7,20 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     font-family: 'Fredoka One', cursive;
     color: lightgoldenrodyellow;
     font-size: large;
 }
 
 .formlogin {
-    background-color: transparent;
-    border-radius: 17px;
     display: inline-block;
-    padding: 6px;
 }
 
 .textbox {
     padding: 15px 90px 15px 90px;
     border: 2px solid #9e7f31;
-    color: white;
-    background: transparent;
+    background: #ffffff;
     margin: 18px 0px 15px 0px;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -36,17 +32,17 @@
 .button1 {
     border: 1px solid #9e7f31;
     border-radius: 25px;
-    background: transparent;
-    color: lightgoldenrodyellow;
-    padding: 10px;
+    background: #ffffff;
+    color: rgb(69, 69, 70);
+    padding: 15px 32px;
     font-size: 21px;
     font-family: 'Fredoka One', cursive;
     text-align: center;
     transition-duration: 0.3s;
     cursor: pointer;
     position: center;
-    margin-top: 20px;
-    margin-left: 85px;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 
 .button1:hover {
@@ -57,10 +53,10 @@
 .button2 {
     border: 1px solid #9e7f31;
     border-radius: 25px;
-    color: lightgoldenrodyellow;
-    background: transparent;
-    padding: 10px;
-    margin-top: 20px;
+    background: #ffffff;
+    color: rgb(69, 69, 70);
+    padding: 15px 32px;
+    margin-top: 25px;
     font-size: 21px;
     font-family: 'Fredoka One', cursive;
     text-align: center;
