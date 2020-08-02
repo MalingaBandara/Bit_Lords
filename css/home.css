@@ -20,9 +20,7 @@
     }
     
     .secound {
-        background-image: url(../img/home/home_111.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 50vh;
     }
     
     .third {
@@ -52,6 +50,7 @@
     .tx {
         font-size: 25px;
         color: #516477;
+        margin-right: 50%;
     }
     
     .cent {
@@ -61,6 +60,13 @@
         padding-top: 10%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 50px;
+    }
+    
+    .alin {
+        height: 38%;
+        width: 38%;
+        float: right;
+        padding-right: 5%;
     }
     
     .gal-row {
@@ -96,10 +102,10 @@
         background-repeat: no-repeat;
         background-size: 25%;
     }
-    /*change the options when sceen size falls bellow 600px*/
+    /*change the options when sceen size falls bellow 500px*/
     /*jidcicpid*/
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 500px) {
         .web-img {
             width: 100%;
         }
@@ -110,6 +116,10 @@
             padding-right: 0;
         }
         .tx {
-            font-size: 2px;
+            font-size: 10px;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+            margin-right: 0;
         }
     }
