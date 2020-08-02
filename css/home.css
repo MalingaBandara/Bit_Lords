@@ -8,6 +8,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: #ffffdf;
+        background-attachment: fixed;
     }
     
     .aria {

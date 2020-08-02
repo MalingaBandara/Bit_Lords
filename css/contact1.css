@@ -1,0 +1,21 @@
+body {
+    background-image:url("../img/contact1/Queen-Room.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+  }
+  
+  .footerC{
+  background-color:black;
+  span:width=100%;
+  color:white;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  }
+
+  .color{
+      color:white;
+  }
+  
