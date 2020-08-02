@@ -2,6 +2,9 @@
 .space{
     height: 100vh;
 }
+.spacee{
+    height:90vh;
+}
 
 .ss{
     height:20vh;
@@ -26,10 +29,8 @@
    list-style-type:none;
    font-size:130%;
   
-
-
-
 }
+
 .row2{
 
     float:right;
@@ -46,11 +47,12 @@
 }
 
 
-.qq{
-    text-align:right;
+#topad{
+    text-align:center;
     padding:0%;
-    margin-right: 10%;
-    
+    margin-left:54%;
+    font-size:30px;
+
     
     
     
@@ -73,15 +75,31 @@
     margin-left:76%;
     
   }
+
+  .container{
+    border: 1px solid black;
+    margin-top:10%;
+  }
   
-  #address{
-    
-    
-    
+  
+
+ 
+  
+  #title{
+    text-align: center;
+    padding-top:20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:100px;
     
   }
 
+  #ad{
+      color:red;
+     
+  }
  
+  
      
  
  
