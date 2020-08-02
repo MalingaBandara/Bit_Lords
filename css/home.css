@@ -79,7 +79,7 @@
         flex-direction: column;
         width: 20%;
         min-width: 350px;
-        height: 50vh;
+        height: 25vh;
         object-fit: cover;
         object-position: 20% 10px;
     }

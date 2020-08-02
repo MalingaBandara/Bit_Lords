@@ -9,8 +9,8 @@ body {
   background-color:black;
   span:width=100%;
   color:white;
+  height:30vh;
   position:absolute;
-  bottom:0;
   left:0;
   right:0;
   }
@@ -35,11 +35,12 @@ body {
     
   }
 
-  h2{
-      
-  }
+  
 
 .th{
     background-color: white;
-    opacity:0.3;
+    opacity:0.8;
+    
 }
+
+
