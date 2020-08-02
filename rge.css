@@ -1,0 +1,23 @@
+ header {
+     font-size: 10vh;
+     font-weight: bold;
+     text-align: center;
+     text-shadow: -4px 5px coral;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ body {
+     background-color: black;
+     color: wheat;
+     text-align: left;
+ }
+ 
+ h1 {
+     font-size: 6vh;
+     color: orangered;
+ }
+ 
+ ul li {
+     display: inline;
+     padding-left: 45px;
+ }
