@@ -3,17 +3,18 @@
 	<head>
         <title>CONTACT US</title>
         <link rel="stylesheet" type="text/css" href="css/contact1.css">
-        <script type="text/javascript" src="js/contac1.js"></script>
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
 	</head>
 	
 	<body>
         
-    
+        <script type="text/javascript" src="js/contac1.js">
+        </script>
 		
             <P>
-			<form name="form1" action="CONTACTUS.php" onsubmit="return validateForm()" method="post" >
+			<form name="form1" >
                 
                 <div class="container">
                     <div class="row">
@@ -24,7 +25,7 @@
                             <hr class="mb-3">
                             
                             <label class="color" for="firstname" ><b>First Name</b></label>
-                            <input class="form-control" id="firstname" type="text" name="firstname">
+                            <input class="form-control"  type="text" name="firstname">
 
                             <label class="color" for="lastname"><b>Last Name</b></label>
                             <input class="form-control" id="lastname" type="text" name="lastname" required>
@@ -39,7 +40,7 @@
                             <input class="form-control" id="Write Message" type="text" name="Write Message" required>
                             
                             <hr class="mb-3">
-                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-primary" type="button" value="validate" onclick="validateForm();">
                             </div>
                     </div>
 					

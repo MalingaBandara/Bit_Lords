@@ -1,15 +1,15 @@
 function  validateForm() {
-	var firstname = document.forms['form1']['firstname'].value;
+	
 	var lastname = document.forms["form1"]["lastname"].value;
     var email = document.forms["form1"]["email"].value; 
 	var phonenumber = document.forms["form1"]["phonenumber"].value;
 
 	
 
-	if (firstname=="")
+	if (document.form1.firstname.value.length==0)
 	{
 		alert("Firstname is empty");
-		return false;
+		return;
 	}
 	if (lastname=="")
 	{
