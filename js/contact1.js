@@ -1,8 +1,11 @@
-function validateForm() {
-    var firstname = document.form1.firstname.value;
-    var lastname = document.forms["form1"]["lastname"].value;
-    var email = document.forms["form1"]["email"].value;
-    var phonenumber = document.forms["form1"]["phonenumber"].value;
+function validateForm(form) {
+
+   
+
+    var firstname = document.form.firstname.value;
+    var lastname = document.form.lastname.value;
+    var email = document.form.email.value;
+    var phonenumber = document.form.phonenumber.value;
 
 
 
