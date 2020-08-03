@@ -54,6 +54,11 @@
         margin-right: 50%;
     }
     
+    .av {
+        width: 25vh;
+        padding-left: 30%;
+    }
+    
     .cent {
         text-align: center;
         margin-top: 10%;
