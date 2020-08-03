@@ -1,25 +1,24 @@
-.first{
+.first {
     background-image: url(fit.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     height: 100vh;
-    color:white;
+    color: white;
 }
 
-.Hname{
+.Hname {
     margin-top: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.center{
+.center {
     margin-top: 250px;
     text-align: center;
     font-size: 100px;
 }
 
-.Shead{
-    
+.Shead {
     margin-top: 150px;
     text-align: center;
     font-size: 60px;
@@ -33,17 +32,25 @@
     height: 1000;
     padding-left: 95px;
 }
-.col2{
+
+.col2 {
     background-image: url(col.jpg);
     float: none;
     width: 33.33%;
     height: 1000%;
-    
 }
-.col2{
+
+.col2 {
     background-image: url(col.jpg);
     float: right;
     width: 33.33%;
     height: 100;
     padding-right: 95px;
+}
+
+.newtext {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lexend Zetta', sans-serif;
 }
