@@ -1,0 +1,16 @@
+.footerC{
+    background-color:black;
+    span:width=100%;
+    color:white;
+    height:20vh;
+    position:absolute;
+    left:0;
+    right:0;
+   
+    }
+
+    .qq{
+      
+     margin-left:4%;
+     
+    }

@@ -5,15 +5,7 @@ body {
     background-size: cover;
   }
   
-  .footerC{
-  background-color:black;
-  span:width=100%;
-  color:white;
-  height:30vh;
-  position:absolute;
-  left:0;
-  right:0;
-  }
+  
 
   .color{
       color:white;
