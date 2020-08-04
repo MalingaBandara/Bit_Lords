@@ -1,34 +1,49 @@
+<html>
+<body>
+
 <?php
 
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="contactinfor";
 
-$FirstName = $_REQUEST['fname'];
-$lastname = $_REQUEST['lastname'];
-$phonenumber = $_REQUEST['phonenumber'];
-$email= $_REQUEST['email'];
 
+
+
+$con=mysqli_connect($servername,$username,$password,$dbname);
+if(!$con)
+{
+        die("connection failed");
+}
+else
+{
+
+ $FirstName = $_POST['fname'];
+ $lastname = $_POST['lastname'];
+ $phonenumber = $_POST['phonenumber'];
+ $email= $_POST['email'];
+ $message=$_POST['WriteMessage'];
+
+ $sql="INSERT INTO cinfor(FirstName,LastName,PhoneNumber,Email,messge)
+      VALUES('$FirstName','$lastname','$phonenumber','$email','$message');";
+
+      if(mysqli_query($con,$sql)==TRUE)
+      {
+              echo "Recorded added succesfully";
+      }
+      else
+      {
+              echo "error";
+      }
+}
+  
 
 
 ?>
 
-<table border="1px solid black">
-    <tr>
-        <td>First Name</td>
-        <td><?php echo $FirstName ?></td>
-</tr>
-<tr>
-        <td>Last Name</td>
-        <td><?php echo $lastname ?></td>
-</tr>
-<tr>
-        <td>phonenumber</td>
-        <td><?php echo $phonenumber ?></td>
-</tr>
-<tr>
-        <td>email</td>
-        <td><?php echo $email  ?></td>
-</tr>
-</table>
-
+</body>
+</html>
 
 
 
