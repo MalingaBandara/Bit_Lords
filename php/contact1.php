@@ -25,7 +25,7 @@ else
  $email= $_POST['email'];
  $message=$_POST['WriteMessage'];
 
- $sql="INSERT INTO cinfor(FirstName,LastName,PhoneNumber,Email,messge)
+ $sql="INSERT INTO cinfor(FirstName,LastName,PhoneNumber,Email,Messagefromclient)
       VALUES('$FirstName','$lastname','$phonenumber','$email','$message');";
 
       if(mysqli_query($con,$sql)==TRUE)
