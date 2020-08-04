@@ -16,8 +16,9 @@ else
    $checkout = $_POST['edate'];
    $adults = $_POST['adult'];
    $children =$_POST['children'];
+   $room = $_POST['room'];
 
-   $sql ="INSERT INTO availability(checkIN,checkOUT,Adults,Children) VALUES ('$checkin','$checkout','$adults','$children') ;";
+   $sql ="INSERT INTO availability(checkIN,checkOUT,Adults,Children,room) VALUES ('$checkin','$checkout','$adults','$children','$room') ;";
 
   if(mysqli_query($conn,$sql)==TRUE)
   {
