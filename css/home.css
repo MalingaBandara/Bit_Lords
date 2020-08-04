@@ -3,6 +3,10 @@
         font-size: high;
     }
     
+    .col {
+        background-color: blue;
+    }
+    
     .first {
         background-image: url(../img/home/hero.jpg);
         background-repeat: no-repeat;
