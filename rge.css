@@ -1,0 +1,39 @@
+ header {
+     font-size: 10vh;
+     font-weight: bold;
+     text-align: center;
+     text-shadow: -4px 5px coral;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ body {
+     background-color: white;
+     color: black;
+     text-align: left;
+ }
+ 
+ h1 {
+     font-size: 6vh;
+     color: black;
+ }
+ 
+ ul li {
+     display: inline;
+     padding-left: 45px;
+ }
+ 
+ .lk {
+     background-image: url("windows.jpg");
+     width: 2000px;
+     height: 1000px;
+     background-repeat: no-repeat;
+ }
+ 
+ div h1 {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 120px;
+     position: absolute;
+     left: 20%;
+     top: 57%;
+     transform: translate(-50%, -50%);
+ }
