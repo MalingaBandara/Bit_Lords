@@ -29,9 +29,10 @@
     }
     
     .third {
-        background-image: url(../img/home/home_2.jpg);
+        background-image: url(../img/home/event.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        color: #faf60ff5;
     }
     
     .h {
