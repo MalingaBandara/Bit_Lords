@@ -19,11 +19,13 @@ else
 
   if(mysqli_query($conn,$sql)==TRUE)
   {
-      echo '<script>alert("Your Room is booked ")</script>';
+    echo '<script>alert("Your Room is booked ")</script>';
   }
   else
   {
-      echo '<script>alert("The Room IS Alredy Booked Some One Choese Other One")</script>';
+      echo '<script>confirm("The Room IS Alredy Booked Some One Choese Other One")
+    
+      </script>';
   }
 
 }
