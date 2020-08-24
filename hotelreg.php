@@ -1,3 +1,5 @@
+ 
+
 <!DOCTYPE html>
 <html>
 
@@ -58,9 +60,54 @@ if (customername == "") {
 } else if (email != confirmemail) {
     alert("Your email didn't matched, Please check again!");
     return false;
-} else {
-    alert("Registration Successful!");
-    return true;
+}
+else {
+
+    
+<?php
+
+
+
+$hostname = "localhost";
+$username ="root";
+$password ="";
+$dbname = "registration";
+
+$conn = mysqli_connect($hostname,$username,$password,$dbname);
+
+if ($conn == false)
+{
+    die ("Conncection failed".mysqli_connect_error());
+}
+
+
+
+ if(isset($_REQUEST['cname']))
+{  
+$Name = $_REQUEST['cname'];
+$Uname = $_REQUEST['uname'];
+$Password1 = $_REQUEST['pwd'];
+$Password2 = $_REQUEST['cpwd'];
+$Email1 = $_REQUEST['email'];
+$Email2 = $_REQUEST['cemail'];
+
+$sql = "INSERT INTO users (Name,Username,Password1,Password2,Email,CEmail) Values ('$Name','$Uname','$Password1','$Password2','$Email1','$Email2')";
+$result = mysqli_query($conn,$sql);
+
+if ($result==true)
+{
+header("location: login.php");     
+}
+else{
+    $errormsg = "Your registration failed";
+    echo "<script type='text/javascript'>alert('$errormsg');</script>" ;  
+    
+}
+
+
+}
+
+?> 
 }
     }
  </script>
@@ -68,13 +115,7 @@ if (customername == "") {
 
 <body class="body">
 
-
-
-
-
-
-
-    <form name="form1" method="POST" action="usereg.php" onSubmit="return check();">
+    <form name="form1" method="POST" onSubmit="return check();">
 
 
         <div class=form1>
