@@ -11,10 +11,6 @@
      text-align: left;
  }
  
- .align {
-     float: right;
- }
- 
  h1 {
      font-size: 6vh;
      color: black;
@@ -28,10 +24,11 @@
  .lk {
      background-image: url("../img/Rooms/windows.jpg");
      height: 100vh;
+     background-size: cover;
      background-repeat: no-repeat;
  }
  
- div h1 {
+ h1 {
      font-family: 'Times New Roman', Times, serif;
      font-size: 120px;
      position: absolute;
