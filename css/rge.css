@@ -23,8 +23,7 @@
  
  .lk {
      background-image: url("../img/Rooms/windows.jpg");
-     width: 2000px;
-     height: 1000px;
+     height: 100vh;
      background-repeat: no-repeat;
  }
  
