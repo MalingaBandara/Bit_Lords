@@ -35,6 +35,10 @@
         color: #faf60ff5;
     }
     
+    .floatnav {
+        float: right;
+    }
+    
     .h {
         margin-top: 0;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
