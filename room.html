@@ -70,9 +70,6 @@
     <h3>Amenities</h3>
 
     <h3>Bath & Personal Care</h3>
-
-    <li>Wifi</li>
-    <li>Wifi</li>
     <li>Wifi</li>
     <li>Walk-in shower and/or separate bathtub</li>
     <li>Bathroom mirror</li>
@@ -81,26 +78,29 @@
     <li>Pillow menu with hypoallergenic options</li>
     <li>Iron and ironing board</li>
     <li>Upgraded toiletries</li>
+    </ul>
 
-    <h3>Media & Entertainment</h3>
+    <div>
+        <h3>Media & Entertainment</h3>
 
-    <li>High-speed Internet access</li>
-    <li>Flatscreen TV</li>
-    <li>Wide selection of international and local television channels</li>
+        <li>High-speed Internet access</li>
+        <li>Flatscreen TV</li>
+        <li>Wide selection of international and local television channels</li>
 
-    <h3>Office Equipment & Stationery</h3>
+        <h3>Office Equipment & Stationery</h3>
 
-    <li>Work space</li>
-    <li>International Direct Dial telephone with two lines</li>
-    <li>Electronic safe</li>
-    <li>USB charge ports</li>
-    <li>Digital alarm clock</li>
-    <li>Laptop charging socket</li>
+        <li>Work space</li>
+        <li>International Direct Dial telephone with two lines</li>
+        <li>Electronic safe</li>
+        <li>USB charge ports</li>
+        <li>Digital alarm clock</li>
+        <li>Laptop charging socket</li>
 
-    <h3>Refreshments</h3>
-    <li>Minibar</li>
-    <li>Water</li>
-    <li>Tea and coffee making facilities</li>
+        <h3>Refreshments</h3>
+        <li>Minibar</li>
+        <li>Water</li>
+        <li>Tea and coffee making facilities</li>
+    </div>
 
     <div><button></button> </div>
 
@@ -108,8 +108,30 @@
 
     <p>Children of registered hotel guests under the age of 6 can enjoy *buffet meals at no extra cost in the All Day Dining venue when accompanied by a paying adult; up to 2 children. For more than 2 children under the age of 6 or children who are 6 years
         and above but under the age of 12, a 50% discount on the buffet price will be given. *Buffet is subject to availability.
-
+        <form action="php/room.php" method="POST" name="from1">
+            <table>
+                <tr>
+                    <td>
+                        <select style="width: 350px; height:50px;" name="room" id="rooms">
+            <option value="">ROOM ID</option>
+            <option value="1">RSS001</option>
+            <option value="2">RSS002</option>
+            <option value="3">RSS003</option>
+            <option value="4">RDQ001</option>
+            <option value="5">RDQ002</option>
+            <option value="6">RDQ003</option>
+            <option value="7">ROB001</option>
+            <option value="8">ROB002</option>
+            <option value="9">ROB003</option>
+            <option value="10">ROB004</option>
+          </select>
+                    </td>
+                    <td><input type="submit" name="submit"></td>
+                </tr>
+            </table>
+        </form>
     </p>
+
     <hr/>
 
 

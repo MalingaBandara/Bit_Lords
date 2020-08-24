@@ -11,6 +11,10 @@
      text-align: left;
  }
  
+ .align {
+     float: right;
+ }
+ 
  h1 {
      font-size: 6vh;
      color: black;
