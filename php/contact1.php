@@ -30,7 +30,7 @@ else
 
       if(mysqli_query($con,$sql)==TRUE)
       {
-              echo "Recorded added succesfully";
+              echo "Thank for your response";
       }
       else
       {
